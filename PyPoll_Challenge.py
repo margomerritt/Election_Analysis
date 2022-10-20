@@ -6,7 +6,7 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("..", "Resources", "election_results.csv")
+file_to_load = os.path.join("resources", "election_results.csv")
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
@@ -35,7 +35,7 @@ county_voter_turnout = 0
 
 # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
-    reader = csv.reader(election_data)
+    reader = csv.reader(election_data) 
 
     # Read the header
     header = next(reader)
@@ -57,7 +57,7 @@ with open(file_to_load) as election_data:
         # the candidate list
         if candidate_name not in candidate_options:
 
-            county_name = largest_county[county_voter_turnout]
+            #county_name = largest_county[county_voter_turnout]
 
             # Add the candidate name to the candidate list.
             candidate_options.append(candidate_name)
@@ -70,7 +70,7 @@ with open(file_to_load) as election_data:
 
         # 4a: Write an if statement that checks that the
         # county does not match any existing county in the county list.
-        If (county_name != county_list):
+        if (county_name != "Jefferson") or (county_name != "Denver") or (county_name != "Arapahoe"):
 
             # 4b: Add the existing county to the list of counties.
             county_list.append(county_name)
