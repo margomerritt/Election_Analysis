@@ -68,7 +68,7 @@ with open(file_to_load) as election_data:
 
         # 4a: Write an if statement that checks that the
         # county does not match any existing county in the county list.
-        if county_name not in county_list:
+        if (county_name != "Jefferson") or (county_name != "Denver") or (county_name != "Arapahoe"):
 
             # 4b: Add the existing county to the list of counties.
             county_list.append(county_name)
@@ -106,14 +106,14 @@ with open(file_to_save, "w") as txt_file:
         # 6e: Save the county votes to a text file.
         
          # 6f: Write an if statement to determine the winning county and get its vote count.
-        if votes > county_voter_turnout:
-            county_voter_turnout = votes
-            largest_county = county_name
-            
+        if (votes > winning_count) and (vote_percentage > winning_percentage):
+            winning_count = votes
+            winning_county = county_name
+            winning_percentage = vote_percentage 
 
 
     # 7: Print the county with the largest turnout to the terminal.
-    print(largest_county)
+    
 
     # 8: Save the county with the largest turnout to a text file.
     
