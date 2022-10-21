@@ -38,3 +38,4 @@ The analysis of the election shows that:
 		
 
 ## Election-Audit Summary
+The Python script written for this project can be modified to use for any election. This script was written for the Colorado board of elections to use it for a congressional election for the district made up of the counties Denver, Jefferson, and Arapahoe. The script could be easily modified to be used for the other remaining congressional districts in Colorado by simply importing a dataset with the counties and candidates for the new district. This script could also be used for senatorial districts and local elections with a few modifications as well. 
