@@ -13,7 +13,7 @@ In the dataset there are three columns of data: Ballot ID, County, and Candidate
 ![total_votes](https://user-images.githubusercontent.com/111299372/197276268-1d2ca1e3-3adb-48fc-9854-41b6d39e0528.png)
 
 * Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct. 
-Arapahoe had 24,801 votes cast. Arapahoe had 6.7% percents of all votes cast, which is the least amount of votes between the three counties. Jefferson county had 10.5% of the total votes cast, which is 38,855 votes cast. Denver had the largest amount of votes cast at 306,055 votes. The percentage of votes cast in Denver was 82.8% of the total votes cast. 
+	- Arapahoe had 24,801 votes cast. Arapahoe had 6.7% percents of all votes cast, which is the least amount of votes between the three counties. Jefferson county had 10.5% of the total votes cast, which is 38,855 votes cast. Denver had the largest amount of votes cast at 306,055 votes. The percentage of votes cast in Denver was 82.8% of the total votes cast. 
 
 ![votes_per_county](https://user-images.githubusercontent.com/111299372/197276287-d43e88d9-fd82-4244-bee1-e4060e74c675.png)
 
