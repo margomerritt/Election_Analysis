@@ -23,13 +23,15 @@ The analysis of the election shows that:
 
 ![largest_county_turnout](https://user-images.githubusercontent.com/111299372/197276306-b4532e58-e4e5-49af-a029-6684d65b8ad5.png)
 
-* Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-	- Candidate Charles Casper Stockham received 23.0% of the total votes with 85,213 votes cast for him. Diana DeGette received 73.8% of the total votes with 272,892 votes cast for DeGette. Raymon Anthony Doane received 3.1% of the total votes cast with 11,606 votes cast for him. 
+* The candidate results were:
+	- Charles Casper Stockham received 23.0% of the total votes and 85,213 votes.
+	- Diana DeGette received 73.8% of the total votes and 272,892 votes.
+	- Raymon Anthony Doane received 3.1% of the total votes and 11,606 votes.
 
 ![individual_votes_cast](https://user-images.githubusercontent.com/111299372/197276319-a70eb712-763f-4d43-b9f3-d504bd6476a7.png)
 
-* Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-	- The winner of the congressional election is Diana DeGette with 272,892 votes cast for her. DeGette received 73.8% of the total votes. 
+* The winner of the congressional election was: 
+	- Diana DeGette, who received 73.8% of the vote and 272,892 votes.
 
 ![election_winner](https://user-images.githubusercontent.com/111299372/197276334-578eb0bd-b439-4c6f-9f54-a5c620391c22.png)
 
