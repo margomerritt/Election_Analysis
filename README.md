@@ -7,8 +7,8 @@ In the dataset there are three columns of data: Ballot ID, County, and Candidate
 
 ## Election-Audit Results
 
-* How many votes were cast in this congressional election?
- 	- There were 369,711 total votes cast in this congressional election. This vote count includes all votes cast in all three counties for the three candidates running. 
+The analysis of the election shows that:
+* There were 369,711 total votes cast in this congressional election. This vote count includes all votes cast in all three counties for the three candidates running. 
  
 ![total_votes](https://user-images.githubusercontent.com/111299372/197276268-1d2ca1e3-3adb-48fc-9854-41b6d39e0528.png)
 
