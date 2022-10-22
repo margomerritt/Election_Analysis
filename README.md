@@ -7,7 +7,7 @@ In the dataset there are three columns of data: Ballot ID, County, and Candidate
 
 ### Resources
 * Data Source: election_results.csv
-* Softward: Python 3.9.12, Visual Studio Code 1.72.1
+* Software: Python 3.9.12, Visual Studio Code 1.72.1
 
 ## Election-Audit Results
 
