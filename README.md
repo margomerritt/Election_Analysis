@@ -19,7 +19,7 @@ The analysis of the election shows that:
 * The county results were:
 	- Jefferson county received 10.5% of the total votes and 38,855 votes.
 	- Denver county received 82.8% of the total votes and 306,055 votes.
-	- Araphahoe county received 6.7% of the total votes and 24,801 votes.
+	- Arapahoe county received 6.7% of the total votes and 24,801 votes.
 
 ![votes_per_county](https://user-images.githubusercontent.com/111299372/197276287-d43e88d9-fd82-4244-bee1-e4060e74c675.png)
 
@@ -43,3 +43,5 @@ The analysis of the election shows that:
 
 ## Election-Audit Summary
 The Python script written for this project can be modified to use for any election. This script was written for the Colorado board of elections to use it for a congressional election for the district made up of the counties Denver, Jefferson, and Arapahoe. The script could be easily modified to be used for the other remaining congressional districts in Colorado by simply importing a dataset with the counties and candidates for the new district. This script could also be used for senatorial districts and local elections with a few modifications as well. 
+
+This is a useful script to modify and use for any election. This script outputs the overall winner, but also calculates a lot of other useful data as well such as the overall vote count for each county. All this data can by analyzed to ensure the integrity of the election. For example, in this project there were 24,801 votes cast in Arapahoe county. If Arapahoe only had 20,000 registered voters then the election committee would know that there were illegal votes cast at the Araphaoe precincts. This would give the Colorado Elections board the opportunity to prevent voter fraud for future elections.
