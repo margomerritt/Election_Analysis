@@ -1,7 +1,7 @@
 # Election Audit
 ## Overview of Election Audit
 ### Purpose
-The purpose of this project is to tabulate the results for a U.S. congressional precinct in Colorado. The goal is to report the total number of votes cast, the total number of votes for each candidate, the percentage of votes for each candidate, and the winner based on the popular vote. The election dataset was provided in a .csv format. This dateset was imported into VS code using Python to do the data analysis. 
+Tabulates the results for a U.S. congressional precinct in Colorado. Reports the total number of votes cast, the total number of votes for each candidate, the percentage of votes for each candidate, and the winner based on the popular vote. The election dataset was provided in a .csv format. This dateset was imported into VS code using Python to do the data analysis. 
 
 In the dataset there are three columns of data: Ballot ID, County, and Candidate. The three counties in this congressional election are Jefferson, Denver, and Arapahoe. The three congressional candidates are Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane. There are 369,711 rows of entries in the dataset. Each row indicates a singular vote. 
 
